@@ -107,8 +107,6 @@
     
     addressLabel.text = @"Processing...";
     
-//    CLGeocoder *geocoder = [[CLGeocoder alloc] init];
-    
     CLGeocoder* geocoder = [CLGeocoder new];
     [geocoder reverseGeocodeLocation:[[CLLocation alloc] initWithLatitude:latitude longitude:longitude] completionHandler:^(NSArray *placemarks, NSError *error)
      {
