@@ -19,7 +19,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     UILabel *titleLabel = [UILabel new];
-    titleLabel.text = @"Get Current Location";
+    titleLabel.text = @"Your Current Location";
     [self.view addSubview:titleLabel];
     [titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.view).offset(24);
